@@ -1,0 +1,27 @@
+﻿@using WeddingWebsite;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <h1>The Book Smith Wedding</h1>
+    <div id="menu">
+        <ul>
+            @Html.ListItemAction("Home", "Index")
+            @Html.ListItemAction("Our Story", "Story")
+            @Html.ListItemAction("Bridal Party", "Party")
+            @Html.ListItemAction("Points of Intereset", "Interest")
+            @Html.ListItemAction("Registry", "Registry")
+        </ul>
+    </div> 
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

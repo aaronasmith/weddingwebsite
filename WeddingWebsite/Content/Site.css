@@ -1,0 +1,118 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+    background-image: url("yellowbrickwall.png")
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+div#menu { 
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: #999a6d; 
+   width: 100%; 
+   text-align: center; 
+} 
+
+div#menu ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#menu ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#menu ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #fbec3f; 
+} 
+
+div#menu ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #fbec3f; 
+} 
+
+div#menu ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: white; 
+} 
+
+div#menu ul a:hover, a.active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #6d6d60;
+}
