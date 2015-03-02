@@ -37,7 +37,8 @@ var diff = (date.getTime() / 1000) - (now.getTime() / 1000);
 
 var clock = $('.countdownClock').FlipClock(diff, {
     clockFace: 'DailyCounter',
-    countdown: true
+    countdown: true,
+    showSeconds: false
 });
 
 

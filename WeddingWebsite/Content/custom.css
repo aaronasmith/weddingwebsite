@@ -23,7 +23,7 @@ a.active {
 
 .flip-clock-wrapper {
 	margin: auto;
-	max-width: 700px;
+	max-width: 550px;
 }
 
 
@@ -141,7 +141,7 @@ hr.star-primary:after {
 }
 
 .navbar-fixed-top .navbar-brand {
-    font-size: 1.5em !important;
+    font-size: 1.5em;
 }
 
 header {
@@ -201,6 +201,16 @@ header .intro-text .skills {
 		font-size: 1.75em;
 	}
 }
+
+
+@media (max-width : 320px) {
+.navbar-fixed-top .navbar-brand {
+    font-size: 1.0em !important;
+}    
+      
+}
+
+
 
 @media(min-width:768px) {
 	.navbar-fixed-top {
