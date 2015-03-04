@@ -10,13 +10,18 @@ p.small {
 	font-size: 16px;
 }
 
+.nav li a {
+    border-radius: 5px;
+}
+
 a,
 a:hover,
+a:visited,
 a:focus,
 a:active,
 a.active {
 	outline: 0;
-	color: #18bc9c;
+	color: orangered;
 }
 
 
