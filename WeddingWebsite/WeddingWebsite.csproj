@@ -142,8 +142,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\dark_embroidery.png" />
-    <Content Include="Content\earlyRelationship.jpg" />
-    <Content Include="Content\engagementPhoto.jpg" />
+    <Content Include="Content\Photos\Destin.jpg" />
+    <Content Include="Content\Photos\earlyRelationship.jpg" />
+    <Content Include="Content\Photos\engagementPhoto.jpg" />
     <Content Include="Content\flipclock.css" />
     <Content Include="Content\flower-swirl10.png" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
@@ -151,6 +152,8 @@
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\mooning.png" />
+    <Content Include="Content\Photos\engagementPhoto2.jpg" />
+    <Content Include="Content\Photos\halloween.jpg" />
     <Content Include="Content\swirl_pattern.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />

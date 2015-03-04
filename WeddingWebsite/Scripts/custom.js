@@ -31,7 +31,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-var date = new Date(2015, 10, 23);
+var date = new Date(2015, 10, 23, 17, 30 );
 var now = new Date();
 var diff = (date.getTime() / 1000) - (now.getTime() / 1000);
 
