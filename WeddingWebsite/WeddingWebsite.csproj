@@ -142,6 +142,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\dark_embroidery.png" />
+    <Content Include="Content\Photos\BBB_logo.png" />
     <Content Include="Content\Photos\Destin.jpg" />
     <Content Include="Content\Photos\earlyRelationship.jpg" />
     <Content Include="Content\Photos\engagementPhoto.jpg" />
@@ -294,12 +295,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Story.cshtml" />
-    <Content Include="Views\Home\Party.cshtml" />
-    <Content Include="Views\Home\Interest.cshtml" />
-    <Content Include="Views\Home\Registry.cshtml" />
     <Content Include="Views\Shared\_LayoutAlt.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -327,7 +323,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52490</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52490/</IISUrl>
+          <IISUrl>http://localhost:52491/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
