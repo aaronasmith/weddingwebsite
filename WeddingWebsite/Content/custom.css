@@ -573,3 +573,7 @@ ul {
 il {    
     display: inline-block;
 }
+
+.herstory p {
+    font-size: 1em;
+}
