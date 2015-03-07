@@ -101,6 +101,16 @@ hr.camera:after {
 	font-size: 2em;    
 }
 
+hr.diamond:after {
+	content: "\f219";
+	display: inline-block;
+	position: relative;
+	top: -.8em;
+	padding: 0 .25em;
+	font-family: FontAwesome;
+	font-size: 2em;    
+}
+
 hr.gift:after {
 	content: "\f06b";
 	display: inline-block;
@@ -128,7 +138,7 @@ hr.star-light {
 
 hr.star-light:after {
 	color: #3b3b32;
-	background-color: #e7e7e7;
+	background-color: white;
 }
 
 hr.book:after {
@@ -138,7 +148,17 @@ hr.book:after {
 
 hr.gift:after {
 	color: #3b3b32;
-	background-color: #CCC;
+	background-color: white;
+}
+
+hr.diamond:after {
+    color: #3b3b32;
+    background-color:#e7e7e7;
+}
+
+ hr.camera:after {
+    color: #3b3b32;
+    background-color:#e7e7e7;
 }
 
 
@@ -167,12 +187,6 @@ header {
     border-top: solid 1px #6C6C5F;
     background-image: url(flower-swirl10.png);
 
-}
-
-#bridalParty, #registry {
-    background-image: url(binding_light.png);
-    border-bottom: solid 1px #6C6C5F;
-    border-top: solid 1px #6C6C5F;
 }
 
 header .container {

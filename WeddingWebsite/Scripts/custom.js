@@ -21,6 +21,14 @@ $(function() {
     });
 });
 
+$(function () {
+    var sections = $('section:odd');
+    //sections.css("background-color", "#e7e7e7");
+    sections.css("background-image", "url(/Content/binding_light.png)");
+    sections.css("border-bottom", "solid 1px #6C6C5F");
+    sections.css("border-top", "solid 1px #6C6C5F");
+});
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
