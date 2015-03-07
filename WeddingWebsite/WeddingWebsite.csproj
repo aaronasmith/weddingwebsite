@@ -145,7 +145,6 @@
     <Content Include="Content\dark_embroidery.png" />
     <Content Include="Content\Photos\BBB_logo.png" />
     <Content Include="Content\Photos\Destin.jpg" />
-    <Content Include="Content\Photos\earlyRelationship.jpg" />
     <Content Include="Content\Photos\engagementPhoto.jpg" />
     <Content Include="Content\flipclock.css" />
     <Content Include="Content\flower-swirl10.png" />
@@ -155,6 +154,15 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\mooning.png" />
     <Content Include="Content\Photos\engagementPhoto2.jpg" />
+    <Content Include="Content\Photos\engagementRing.jpg" />
+    <Content Include="Content\Photos\funny 1.jpg" />
+    <Content Include="Content\Photos\funny 2.jpg" />
+    <Content Include="Content\Photos\funny 3.jpg" />
+    <Content Include="Content\Photos\funny 4.jpg" />
+    <Content Include="Content\Photos\funny 5.jpg" />
+    <Content Include="Content\Photos\funny 6.jpg" />
+    <Content Include="Content\Photos\funny 7.jpg" />
+    <Content Include="Content\Photos\funny 8.jpg" />
     <Content Include="Content\Photos\halloween.jpg" />
     <Content Include="Content\swirl_pattern.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
