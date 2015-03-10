@@ -21,7 +21,8 @@ a:focus,
 a:active,
 a.active {
 	outline: 0;
-	color: orangered;
+	color: darkblue;
+    font-weight: bold;
 }
 
 
@@ -588,8 +589,19 @@ il {
     display: inline-block;
 }
 
-.herstory p {
+.ourstory p {
     font-size: 1em;
+    text-align: justify;
+}
+
+span.her{
+    color: #fb18b1;
+    font-weight: bold;
+}
+
+span.him{
+    color: #184bef;
+    font-weight: bold;
 }
 
 img {
