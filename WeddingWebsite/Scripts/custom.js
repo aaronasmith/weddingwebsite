@@ -39,9 +39,9 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-var date = new Date(2015, 10, 23, 17, 30 );
+var date = new Date(Date.UTC(2015, 9, 23, 22, 30));
 var now = new Date();
-var diff = (date.getTime() / 1000) - (now.getTime() / 1000);
+var diff = (date.getTime() - now.getTime()) / 1000;
 
 var clock = $('.countdownClock').FlipClock(diff, {
     clockFace: 'DailyCounter',
