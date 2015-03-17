@@ -143,6 +143,7 @@
     <Content Include="Content\bride-and-groom.png" />
     <Content Include="Content\custom.css" />
     <Content Include="Content\dark_embroidery.png" />
+    <Content Include="Content\Photos\Barn.jpg" />
     <Content Include="Content\Photos\BBB_logo.png" />
     <Content Include="Content\Photos\Destin.jpg" />
     <Content Include="Content\Photos\easter.jpg" />
@@ -164,7 +165,11 @@
     <Content Include="Content\Photos\funny 6.jpg" />
     <Content Include="Content\Photos\funny 7.jpg" />
     <Content Include="Content\Photos\funny 8.jpg" />
+    <Content Include="Content\Photos\Garden.jpg" />
     <Content Include="Content\Photos\halloween.jpg" />
+    <Content Include="Content\Photos\honeyfund.jpg" />
+    <Content Include="Content\Photos\Molly.jpg" />
+    <Content Include="Content\Photos\Rachel.jpg" />
     <Content Include="Content\swirl_pattern.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
