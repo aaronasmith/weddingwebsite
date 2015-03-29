@@ -613,12 +613,34 @@ div.bridalParty img{
     max-height: 150px;
 }
 
+div.bridalParty img.tall{
+    max-height: 200px;
+}
+
 .herstory p{
     font-size: 1em;
     color: #fb18b1;
     font-weight: bold;
 }
 
+.hisstory p{
+    font-size: 1em;    
+    color: #184bef;
+    font-weight: bold;
+}
+
 #pointsOfInterest a{
     font-size: 1.15em;
+}
+
+.nav a{
+    font-size: 13px;
+}
+
+.bridalParty p{
+    font-size: 1.15em;
+}
+
+.snuggles{
+    margin-top: 35px;
 }
