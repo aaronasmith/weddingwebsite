@@ -62,7 +62,7 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary, hr.book, hr.gift {
+hr.star-primary, hr.book, hr.gift, hr.bed {
 	margin: 25px auto 30px;
 	padding: 0;
 	max-width: 250px;
@@ -80,6 +80,16 @@ hr.star-primary:after {
 	padding: 0 .25em;
 	font-family: FontAwesome;
 	font-size: 2em;
+}
+
+hr.bed:after {
+	content: "\f236";
+	display: inline-block;
+	position: relative;
+	top: -.8em;
+	padding: 0 .25em;
+	font-family: FontAwesome;
+	font-size: 2em;    
 }
 
 hr.book:after {
