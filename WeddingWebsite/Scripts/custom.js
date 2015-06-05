@@ -53,7 +53,7 @@ var clock = $('.countdownClock').FlipClock(diff, {
 $(function () {
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
-        center: new google.maps.LatLng(36.080976, -86.774807),
+        center: new google.maps.LatLng(36.1326337, -86.7779674),
         zoom: 11,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }

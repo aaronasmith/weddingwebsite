@@ -665,9 +665,18 @@ div.bridalParty img.tall{
     margin-top: 35px;
 }
 
+#hotelblurb{
+    margin-top: 43px;
+}
+
+#registryBlurb{
+    margin-bottom:  39px;
+}
+
 #map-canvas {
     width: 500px;
-    height: 400px;
+    height: 200px;
     background-color: #CCC;
     margin:0 auto;
+    border: solid;
 }
