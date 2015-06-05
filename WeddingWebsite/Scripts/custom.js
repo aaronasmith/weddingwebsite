@@ -50,3 +50,47 @@ var clock = $('.countdownClock').FlipClock(diff, {
 });
 
 
+$(function () {
+    var mapCanvas = document.getElementById('map-canvas');
+    var mapOptions = {
+        center: new google.maps.LatLng(36.080976, -86.774807),
+        zoom: 11,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    
+    var infoWindow = new google.maps.InfoWindow();
+
+    var airport = new google.maps.Marker({
+        position: new google.maps.LatLng(36.126814, -86.671112),
+        map: map,
+        title: 'Airport'
+    });
+
+    google.maps.event.addListener(airport, 'click', function () {
+        infoWindow.setContent("Airport")
+        infoWindow.open(map, airport);
+    });
+
+    var flyingSaucer = new google.maps.Marker({
+        position: new google.maps.LatLng(36.156727, -86.783956),
+        map: map,
+        title: 'The Flying Saucer'
+    });
+
+    google.maps.event.addListener(flyingSaucer, 'click', function () {
+        infoWindow.setContent("The Flying Saucer")
+        infoWindow.open(map, flyingSaucer);
+    });
+
+    var belleMeade = new google.maps.Marker({
+        position: new google.maps.LatLng(36.1060241, -86.8655007),
+        map: map,
+        title: 'Belle Meade Plantation'
+    });
+
+    google.maps.event.addListener(belleMeade, 'click', function () {
+        infoWindow.setContent("Belle Meade Plantation")
+        infoWindow.open(map, belleMeade);
+    });
+});

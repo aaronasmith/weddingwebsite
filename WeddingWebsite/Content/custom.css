@@ -664,3 +664,10 @@ div.bridalParty img.tall{
 .snuggles{
     margin-top: 35px;
 }
+
+#map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+    margin:0 auto;
+}

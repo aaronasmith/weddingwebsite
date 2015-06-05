@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
-
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <header>
     <div class="container" style="padding-bottom: 50px;">
         <div class="row">
@@ -477,6 +477,7 @@
                     <p class="big">
                         Erik is one of my other groomsmen and is also a good friend of mine. I have worked with Erik a little longer than I've worked with Cameron. Erik sometimes will invite a few
                         of us over to play Pathfinder missions. Playing as a goblin is always a good time. I sometimes think about shooting him with my nerf gun, but he has a bigger gun than me.
+                        He is also an incredibly talented artist and should be doing it professionaly (though I don't want him to get any ideas and quit).
                     </p>
                 </div>
                 <div class="col-lg-3 text-right">
@@ -605,6 +606,9 @@
         </div>
     </div>
 </section>
+
+<!-- Hotels -->
+
 <section id="hotels">
     <div class="container">
         <div class="row">
@@ -613,5 +617,6 @@
                 <hr class="bed">
             </div>
         </div>
+        <div id="map-canvas"></div>
     </div>
 </section>
